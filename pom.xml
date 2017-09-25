@@ -85,11 +85,11 @@
                 </configuration>
             </plugin>
              <!-- ************************************************************ -->
-			<plugin>
+		 <!--	<plugin>
     <groupId>org.mule.tools.maven</groupId>
     <artifactId>mule-maven-plugin</artifactId>
     <version>2.0</version>
-   <!-- <configuration>
+   <configuration>
         <deploymentType>cloudhub</deploymentType> -->
         <!-- muleVersion is the runtime version as it appears on the CloudHub interface -->
        <!--  <muleVersion>3.8.2</muleVersion>
@@ -97,7 +97,7 @@
         <password>Hclengineer@33</password>
         <redeploy>true</redeploy>
         <environment>Production</environment>
-    </configuration> -->
+    </configuration> 
     <executions>
         <execution>
             <id>deploy</id>
@@ -107,7 +107,7 @@
             </goals>
         </execution>
     </executions>
-</plugin>
+</plugin>-->
 <!-- ******************************************************************* -->
         </plugins>
 	<testResources>
