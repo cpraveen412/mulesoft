@@ -1,0 +1,76 @@
+{
+  "type": "object",
+  "description": "Customer Schema",
+  "properties": {
+    "id": {
+      "required": false,
+      "type": "string"
+    },
+    "name": {
+      "required": false,
+      "type": "string"
+    },
+    "email": {
+      "required": false,
+      "type": "string"
+    },
+    "phone": {
+      "required": false,
+      "type": "string"
+    },
+    "billingAddress": {
+      "required": false,
+      "type": "object",
+      "description": "Address Schema",
+      "properties": {
+        "address1": {
+          "required": false,
+          "type": "string"
+        },
+        "city": {
+          "required": false,
+          "type": "string"
+        },
+        "state": {
+          "required": false,
+          "type": "string"
+        },
+        "postalCode": {
+          "required": false,
+          "type": "string"
+        },
+        "country": {
+          "required": false,
+          "type": "string"
+        }
+      }
+    },
+    "shippingAddress": {
+      "required": false,
+      "type": "object",
+      "description": "Address Schema",
+      "properties": {
+        "address": {
+          "required": false,
+          "type": "string"
+        },
+        "city": {
+          "required": false,
+          "type": "string"
+        },
+        "state": {
+          "required": false,
+          "type": "string"
+        },
+        "postalCode": {
+          "required": false,
+          "type": "string"
+        },
+        "country": {
+          "required": false,
+          "type": "string"
+        }
+      }
+    }
+  }
+}
